@@ -5,9 +5,9 @@ from model_gtn import GTN
 from model_fastgtn import FastGTNs
 import pickle
 import argparse
-from torch_geometric.utils import f1_score, add_self_loops
+from torch_geometric.utils import  add_self_loops
 from sklearn.metrics import f1_score as sk_f1_score
-from utils import init_seed, _norm
+from utils import init_seed, _norm,f1_score
 import copy
 
 if __name__ == '__main__':
